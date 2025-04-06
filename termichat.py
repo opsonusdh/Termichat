@@ -113,7 +113,7 @@ if not int_on():
 
 
 
-file = open("gists/gists.json","r")
+file = open("gists.json","r")
 cont = eval(file.read())
 USERNAME = cont["username"]
 TOKEN = cont["token"]
@@ -157,7 +157,7 @@ if IDINFO == ROOMSERVER:
         print(color("[!] Internet is not connected. Please try again.",'bold','red','end'))
         quit()
 
-    file = open("gists/gists.json","w")
+    file = open("gists.json","w")
     file.write("{'username': "+ f"'{USERNAME}','token':"+ f"'{TOKEN}', 'idinfo':"+ f"'{IDINFO}', 'roomserver':"+ f"'{ROOMSERVER}'"+"}")
     file.close()
 
