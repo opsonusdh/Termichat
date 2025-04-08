@@ -13,7 +13,7 @@ A program to chat with people in terminal with a own personal server
 
 ```bash
 apt update -y && apt upgrade -y
-apt install python git 
+apt install python git -y
 git clone https://github.com/opsonusdh/Termichat
 cd Termichat
 ```
