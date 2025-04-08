@@ -136,7 +136,7 @@ if IDINFO == ROOMSERVER:
         }
     }
     try:
-        response = requests.post(create_url, json=create_data, auth=HTTPBasicAuth(self.username, self.token))
+        response = requests.post(create_url, json=create_data, auth=HTTPBasicAuth(USERNAME, TOKEN))
         IDINFO = str(response.json()['id'])
     except:
         print(color("[!] Internet is not connected. Please try again.",'bold','red','end'))
@@ -151,7 +151,7 @@ if IDINFO == ROOMSERVER:
         }
     }
     try:
-        response = requests.post(create_url, json=create_data, auth=HTTPBasicAuth(self.username, self.token))
+        response = requests.post(create_url, json=create_data, auth=HTTPBasicAuth(USERNAME, TOKEN))
         ROOMSERVER = str(response.json()['id'])
     except:
         print(color("[!] Internet is not connected. Please try again.",'bold','red','end'))
