@@ -6,12 +6,14 @@ A program to chat with people in terminal with a own personal server
 • Kali Linux
 • Ubuntu
 • Termux
-• Window
 • And other terminals
 ## How to use
 ### Run the commands in the terminal:
 
+
 ```bash
+apt update -y && apt upgrade -y
+apt install python git 
 git clone https://github.com/opsonusdh/Termichat
 cd Termichat
 ```
