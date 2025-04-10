@@ -20,7 +20,7 @@ nano gists.json
 ```
 
 ### Important
-#### • If you want your own server change the `username` and `token` with yours,
+#### • If you want your own server change the `username` and `token` with yours,idinfo and roomserver will be automatically changed.
 #### • If you want to chat in our server, clear everything in `gists.json` and paste this: 
 ```json
 {"username": "Rajdeep-the-coder","token":"ghp_v9UTEajhWJUigw6Hr30jcEYlQzmG2a58Wo","idinfo":"ff1cbad1182e8a20ede404f95e1ed57d","roomserver":"bb9da035c1079abeba0f181dd33514ae"}
