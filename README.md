@@ -23,6 +23,10 @@ cd Termichat
 ```bash
 nano gists.json
 ```
+#### If you want to chat with our server
+paste
+```json
+
 After pasting that you are good to go.
 Then run the main script:
 ```bash
