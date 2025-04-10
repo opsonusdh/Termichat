@@ -19,7 +19,7 @@ cd Termichat
 ```
 
 ### Important
-#### Paste your GitHub username and token in the `gists` file, with the following code:
+#### If you want your own server Paste your GitHub username and token in the `gists` file, with the following code:
 ```bash
 nano gists.json
 ```
