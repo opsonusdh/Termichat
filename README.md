@@ -16,17 +16,15 @@ apt update -y && apt upgrade -y
 apt install python git -y
 git clone https://github.com/opsonusdh/Termichat
 cd Termichat
+nano gists.json
 ```
 
 ### Important
-#### If you want your own server Paste your GitHub username and token in the `gists` file, with the following code:
-```bash
-nano gists.json
-```
-#### If you want to chat with our server
-paste
+#### • If you want your own server change the `username` and `token` with yours,
+#### • If you want to chat in our server, clear everything in `gists.json` and paste this: 
 ```json
-
+{"username": "Rajdeep-the-coder","token":"ghp_v9UTEajhWJUigw6Hr30jcEYlQzmG2a58Wo","idinfo":"ff1cbad1182e8a20ede404f95e1ed57d","roomserver":"bb9da035c1079abeba0f181dd33514ae"}
+```
 After pasting that you are good to go.
 Then run the main script:
 ```bash
